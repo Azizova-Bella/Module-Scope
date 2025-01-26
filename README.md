@@ -1,6 +1,7 @@
 # Понимание области видимости в модулях
 ![image](https://github.com/user-attachments/assets/b3552914-6f08-4b03-87bb-cca56bce4bc9)
 Этот файл предназначен для описания функциональности, установки и использования библиотеки Module Scope. Библиотека создана для управления областями видимости в модулях, предоставляя удобный интерфейс для работы с переменными, функциями и классами.
+![image](https://github.com/user-attachments/assets/c2cd7690-4ade-4950-a61c-937c081be385)
 
 ## Возможности
 
@@ -46,26 +47,14 @@ scope.exitContext();
 scope.setGlobalVariable('greeting', 'Hello, World!');
 console.log(scope.getGlobalVariable('greeting')); // Вывод: Hello, World!
 
-// Получение списка переменных
 scope.addVariable('a', 1);
 scope.addVariable('b', 2);
 console.log(scope.listVariables()); // Вывод: ['a', 'b']
 
-// Проверка существования переменной
 console.log(scope.hasVariable('a')); // Вывод: true
 console.log(scope.hasVariable('c')); // Вывод: false
 ```
 
-## Вклад в разработку
-
-Мы приветствуем помощь сообщества. Вы можете:
-
-1. Сообщать об ошибках через [Issues](https://github.com/your-repo/module-scope/issues).
-2. Вносить изменения через пул-реквесты.
-3. Обсуждать идеи и предлагать новые функции.
-
-## Лицензия
-Если у вас возникли вопросы или предложения, свяжитесь с нами через нашу [страницу поддержки](https://github.com/your-repo/module-scope).
 
 
 
